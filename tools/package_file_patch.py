@@ -28,7 +28,8 @@ def main():
     source=ROOT/'Wario World (Japan).iso';target=ROOT/'build'/(BUILD_NAME+'.iso')
     evidence=json.loads((ROOT/'metadata'/(BUILD_NAME+'_build.json')).read_text(encoding='utf-8'))
     assert file_sha(source)==evidence['original_sha256'] and file_sha(target)==evidence['sha256']
-    a=scan(source);b=scan(target);assert a['files']==b['files']
+    a=scan(source);b=scan(target)
+    assert {p:r['size'] for p,r in a['files'].items()}=={p:r['size'] for p,r in b['files'].items()}
     manifest={'format':'wario-file-delta-v1','version':VERSION,'game_id':'GWWJ01','revision':0,
         'apploader_sha256':a['apploader_sha256'],'files':{},'dol':{},'patches':[],
         'reference_original_iso_sha256':evidence['original_sha256'],'reference_patched_iso_sha256':evidence['sha256'],

@@ -69,12 +69,38 @@ def scan(path):
             if kind:
                 require(b==stack[-1][2] and i<c<=stack[-1][0],'FST 디렉터리 오류');stack.append((c,path+'/',i))
             else:
-                require(path not in files and b+c<=size,'중복 경로 또는 파일 범위 오류');files[path]={'offset':b,'size':c}
+                require(path not in files and b+c<=size,'중복 경로 또는 파일 범위 오류');files[path]={'offset':b,'size':c,'index':i}
         occupied=[(0,app_end),(do,do+ds),(fo,fo+fmax)]+[(r['offset'],r['offset']+r['size']) for r in files.values() if r['size']]
         occupied.sort()
         for a,b in zip(occupied,occupied[1:]):require(a[1]<=b[0],'겹치는 디스크 영역은 지원하지 않습니다.')
-        return {'size':size,'dol':{'offset':do,'size':ds},'files':files,'occupied':occupied,
+        return {'size':size,'dol':{'offset':do,'size':ds},'files':files,'occupied':occupied,'app_end':app_end,
+                'fst':{'offset':fo,'size':fs,'max':fmax,'raw':fst},
                 'apploader_sha256':sha(region(f,0x2440,app_end-0x2440))}
+
+
+def relayout(disc,dol_len):
+    """Keep header, apploader, DOL, FST, files in disc order.
+
+    UWUVCI's NKit step fails to verify an image whose DOL sits in a gap after
+    the files, so the grown DOL stays at its original offset, the FST follows
+    it, and the few files in the way move to the first 0x8000-aligned gap.
+    """
+    do=disc['dol']['offset'];fst=disc['fst'];newfst=(do+dol_len+0xff)&~0xff;fend=newfst+fst['max']
+    moved=sorted((r['index'],p) for p,r in disc['files'].items() if r['size'] and r['offset']<fend and r['offset']+r['size']>do)
+    need=0
+    for _,p in moved:need=((need+31)&~31)+disc['files'][p]['size']
+    occupied=sorted([(0,disc['app_end']),(do,fend)]+[(r['offset'],r['offset']+r['size']) for p,r in disc['files'].items()
+                    if r['size'] and p not in dict((p,0) for _,p in moved)])
+    start=None;end=0
+    for a,b in occupied+[(DISC_MAX,DISC_MAX)]:
+        at=(end+0x7fff)&~0x7fff
+        if at>=fend and at+need<=a:start=at;break
+        end=max(end,b)
+    require(start is not None,'파일을 옮길 빈 공간이 없습니다.')
+    raw=bytearray(fst['raw']);positions={};at=start
+    for i,p in moved:
+        positions[p]=at;struct.pack_into('>I',raw,i*12+4,at);at=((at+disc['files'][p]['size'])+31)&~31
+    return newfst,bytes(raw),positions
 
 
 def apply_delta(old,packed,expected_size):
@@ -124,18 +150,11 @@ def plan(source,bundle,log=print):
         b=region(f,disc['dol']['offset'],disc['dol']['size'])
         require(len(b)==m['dol']['size'] and sha(b)==m['dol']['sha256'],'실행 파일(DOL)이 지원 원본과 다릅니다.')
         t=targets['@main.dol'];dol=apply_delta(b,blobs['@main.dol'],t['size']);require(sha(dol)==t['sha256'],'DOL 패치 검증 실패')
-    def free(at):return all(at+len(dol)<=a or at>=b for a,b in disc['occupied'])
-    preferred=0x00cd8000
-    if free(preferred) and preferred+len(dol)<=disc['size']:at=preferred
-    else:
-        at=None;end=0
-        for a,b in disc['occupied']+[(disc['size'],disc['size'])]:
-            aligned=(end+31)&~31
-            if aligned+len(dol)<=a:at=aligned;break
-            end=max(end,b)
-        if at is None:at=(disc['size']+31)&~31
-    require(at+len(dol)<=DISC_MAX,'새 실행 파일을 넣을 안전한 공간이 없습니다.')
-    changes=[(0x420,struct.pack('>I',at)),(at,dol)]+[(disc['files'][n]['offset'],b) for n,b in updates.items()]
+        at=disc['dol']['offset'];newfst,fst,positions=relayout(disc,len(dol))
+        moved={n:updates.get(n) or region(f,disc['files'][n]['offset'],disc['files'][n]['size']) for n in positions}
+    changes=[(0x420,struct.pack('>II',at,newfst)),(at,dol),(newfst,fst)]
+    changes+=[(positions.get(n,disc['files'][n]['offset']),b) for n,b in updates.items() if n not in positions]
+    changes+=[(positions[n],b) for n,b in moved.items()]
     changes.sort();require(all(a+len(b)<=c for (a,b),(c,_) in zip(changes,changes[1:])),'패치 영역 중복')
     return m,disc,changes,at
 

@@ -8,7 +8,8 @@ from pathlib import Path
 import numpy as np
 from inspect_discs import ROOT, save
 from prepare_full_localization import prepare, read
-from prepare_output_probe import DISC_DOL_OFFSET, sha
+from prepare_output_probe import sha
+from file_patcher import scan as scan_disc, relayout
 from research_code import load
 
 CHUNK=8*1024*1024
@@ -49,8 +50,14 @@ def main():
     assert source.stat().st_size==original['size_bytes'] and digest(source)==original['sha256']
     prepared=prepare(args.font_weight,args.gmarket_alnum,args.gmarket_symbols,args.lower_question_exclamation);dol,files=select(prepared,args.skip_main,args.omit_file)
     inv=read('metadata/disc_inventory_jp.json');entries={r['path']:r for r in inv['files']}
-    changes=[(0x420,struct.pack('>I',DISC_DOL_OFFSET)),(DISC_DOL_OFFSET,dol)]
-    changes.extend((entries[p]['offset'],b) for p,b in files.items());changes.sort()
+    disc=scan_disc(source);dol_at=disc['dol']['offset'];fst_at,fst,moved=relayout(disc,len(dol))
+    where=lambda p:moved.get(p,entries[p]['offset'])
+    changes=[(0x420,struct.pack('>II',dol_at,fst_at)),(dol_at,dol),(fst_at,fst)]
+    changes.extend((where(p),b) for p,b in files.items())
+    with source.open('rb') as f:
+        for p in moved:
+            if p not in files:f.seek(entries[p]['offset']);changes.append((moved[p],f.read(entries[p]['size'])))
+    changes.sort()
     assert all(a+len(b)<=c for (a,b),(c,_) in zip(changes,changes[1:]))
     assert all(len(b)==entries[p]['size'] for p,b in files.items())
     def patch(block,pos):
@@ -74,10 +81,11 @@ def main():
     assert oldhash.hexdigest()==original['sha256']
     checks=[]
     with partial.open('rb') as built:
-        built.seek(0x420);assert struct.unpack('>I',built.read(4))[0]==DISC_DOL_OFFSET
-        built.seek(DISC_DOL_OFFSET);assert built.read(len(dol))==dol
+        built.seek(0x420);assert struct.unpack('>II',built.read(8))==(dol_at,fst_at)
+        built.seek(dol_at);assert built.read(len(dol))==dol
+        assert {p:(r['offset'],r['size']) for p,r in scan_disc(partial)['files'].items()}=={r['path']:(where(r['path']),r['size']) for r in inv['files']}
         for row in inv['files']:
-            built.seek(row['offset']);b=built.read(row['size']);actual=sha(b)
+            built.seek(where(row['path']));b=built.read(row['size']);actual=sha(b)
             expected=sha(files[row['path']]) if row['path'] in files else row['sha256']
             assert actual==expected,row['path']
             if row['path'] in files:
