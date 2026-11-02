@@ -1,0 +1,6 @@
+Windows executable build: Python 3.13.15, Tcl/Tk 8.6, PyInstaller 6.22.3.
+Font glyph source: Gmarket Sans Bold (SIL OFL 1.1). Full font license is included.
+Python license includes notices for bundled libraries. Tcl/Tk and PyInstaller notices are also included separately.
+OpenSSL 3.0.21 (hashlib runtime): Apache License 2.0; license from the official openssl-3.0.21 source tag.
+No emulator, game image, original game files or original font binary is included.
+The patch data consists of compressed XOR differences for 15 internal targets.

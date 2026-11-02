@@ -1,0 +1,1457 @@
+{
+  "note": "ID별 한국어 번역문. 일본어 원문은 게임 데이터라 넣지 않았습니다.",
+  "messages": [
+    {
+      "id": "main/00/000",
+      "translation": "구역 보스 스탬프"
+    },
+    {
+      "id": "main/00/001",
+      "translation": "하트 조각 스탬프"
+    },
+    {
+      "id": "main/00/002",
+      "translation": "보물 스탬프"
+    },
+    {
+      "id": "main/01/000",
+      "translation": "구역 보스를 쓰러뜨린 증표"
+    },
+    {
+      "id": "main/01/001",
+      "translation": "하트 조각을 손에 넣은 증표"
+    },
+    {
+      "id": "main/01/002",
+      "translation": "보물을 모은 증표"
+    },
+    {
+      "id": "main/02/000",
+      "translation": "프로그레시브 모드로@표시하시겠습니까?"
+    },
+    {
+      "id": "main/02/001",
+      "translation": "화면 표시 모드가@프로그레시브 모드로@설정되었습니다."
+    },
+    {
+      "id": "main/02/002",
+      "translation": "화면 표시 모드가@인터레이스 모드로@설정되었습니다."
+    },
+    {
+      "id": "main/03/000",
+      "translation": "디스크 커버가 열려 있습니다.@게임을 계속하려면@디스크 커버를 닫아 주세요."
+    },
+    {
+      "id": "main/03/001",
+      "translation": "WARIO WORLD@디스크를 넣어 주세요."
+    },
+    {
+      "id": "main/03/002",
+      "translation": "WARIO WORLD@디스크를 넣어 주세요."
+    },
+    {
+      "id": "main/03/003",
+      "translation": "디스크를 읽지 못했습니다.@자세한 내용은 본체의@사용설명서를 읽어 주세요."
+    },
+    {
+      "id": "main/03/004",
+      "translation": "오류가 발생했습니다.@본체의 전원 버튼을 눌러@전원을 끄고, 본체@사용설명서의 지시에 따라 주세요."
+    },
+    {
+      "id": "main/04/000",
+      "translation": "두근두근 월드"
+    },
+    {
+      "id": "main/04/001",
+      "translation": "두근두근 월드"
+    },
+    {
+      "id": "main/04/002",
+      "translation": "두근두근 월드"
+    },
+    {
+      "id": "main/04/003",
+      "translation": "조마조마 월드"
+    },
+    {
+      "id": "main/04/004",
+      "translation": "조마조마 월드"
+    },
+    {
+      "id": "main/04/005",
+      "translation": "조마조마 월드"
+    },
+    {
+      "id": "main/04/006",
+      "translation": "아슬아슬 월드"
+    },
+    {
+      "id": "main/04/007",
+      "translation": "아슬아슬 월드"
+    },
+    {
+      "id": "main/04/008",
+      "translation": "아슬아슬 월드"
+    },
+    {
+      "id": "main/04/009",
+      "translation": "번쩍번쩍 월드"
+    },
+    {
+      "id": "main/04/010",
+      "translation": "번쩍번쩍 월드"
+    },
+    {
+      "id": "main/04/011",
+      "translation": "번쩍번쩍 월드"
+    },
+    {
+      "id": "main/04/012",
+      "translation": "큰 보물상자 광장"
+    },
+    {
+      "id": "main/05/000",
+      "translation": "시작의 숲"
+    },
+    {
+      "id": "main/05/001",
+      "translation": "시작의 유적"
+    },
+    {
+      "id": "main/05/002",
+      "translation": "대결 디나소아"
+    },
+    {
+      "id": "main/05/003",
+      "translation": "오싹오싹 하우스"
+    },
+    {
+      "id": "main/05/004",
+      "translation": "삐끗 서커스"
+    },
+    {
+      "id": "main/05/005",
+      "translation": "대결 두근드래곤"
+    },
+    {
+      "id": "main/05/006",
+      "translation": "덜덜산"
+    },
+    {
+      "id": "main/05/007",
+      "translation": "콩나무 고원"
+    },
+    {
+      "id": "main/05/008",
+      "translation": "대결 레드팬츠 J"
+    },
+    {
+      "id": "main/05/009",
+      "translation": "매지컬 미러"
+    },
+    {
+      "id": "main/05/010",
+      "translation": "쨍쨍 사막"
+    },
+    {
+      "id": "main/05/011",
+      "translation": "대결 캡틴스컬"
+    },
+    {
+      "id": "main/05/012",
+      "translation": "중심부"
+    },
+    {
+      "id": "main/06/000",
+      "translation": "디나소아의 열쇠"
+    },
+    {
+      "id": "main/06/001",
+      "translation": "두근드래곤의 열쇠"
+    },
+    {
+      "id": "main/06/002",
+      "translation": "레드팬츠 J의 열쇠"
+    },
+    {
+      "id": "main/06/003",
+      "translation": "캡틴스컬의 열쇠"
+    },
+    {
+      "id": "main/06/004",
+      "translation": "큰 보물상자의 열쇠"
+    },
+    {
+      "id": "main/07/000",
+      "translation": "루비"
+    },
+    {
+      "id": "main/07/001",
+      "translation": "오팔"
+    },
+    {
+      "id": "main/07/002",
+      "translation": "자수정"
+    },
+    {
+      "id": "main/07/003",
+      "translation": "호박"
+    },
+    {
+      "id": "main/07/004",
+      "translation": "사파이어"
+    },
+    {
+      "id": "main/07/005",
+      "translation": "토파즈"
+    },
+    {
+      "id": "main/07/006",
+      "translation": "에메랄드"
+    },
+    {
+      "id": "main/07/007",
+      "translation": "다이아몬드"
+    },
+    {
+      "id": "main/07/008",
+      "translation": "동양 항아리"
+    },
+    {
+      "id": "main/07/009",
+      "translation": "중화 접시"
+    },
+    {
+      "id": "main/07/010",
+      "translation": "서양 항아리"
+    },
+    {
+      "id": "main/07/011",
+      "translation": "티포트"
+    },
+    {
+      "id": "main/07/012",
+      "translation": "꽃병"
+    },
+    {
+      "id": "main/07/013",
+      "translation": "은 주전자"
+    },
+    {
+      "id": "main/07/014",
+      "translation": "너구리 장식품"
+    },
+    {
+      "id": "main/07/015",
+      "translation": "패미컴"
+    },
+    {
+      "id": "main/07/016",
+      "translation": "촛대"
+    },
+    {
+      "id": "main/07/017",
+      "translation": "은 촛대"
+    },
+    {
+      "id": "main/07/018",
+      "translation": "숲 그림"
+    },
+    {
+      "id": "main/07/019",
+      "translation": "붉은 성 그림"
+    },
+    {
+      "id": "main/07/020",
+      "translation": "수정 구슬"
+    },
+    {
+      "id": "main/07/021",
+      "translation": "서양 투구"
+    },
+    {
+      "id": "main/07/022",
+      "translation": "그리스 투구"
+    },
+    {
+      "id": "main/07/023",
+      "translation": "부적"
+    },
+    {
+      "id": "main/07/024",
+      "translation": "나팔"
+    },
+    {
+      "id": "main/07/025",
+      "translation": "탬버린"
+    },
+    {
+      "id": "main/07/026",
+      "translation": "트라이앵글"
+    },
+    {
+      "id": "main/07/027",
+      "translation": "클라리넷"
+    },
+    {
+      "id": "main/07/028",
+      "translation": "트롬본"
+    },
+    {
+      "id": "main/07/029",
+      "translation": "색소폰"
+    },
+    {
+      "id": "main/07/030",
+      "translation": "북"
+    },
+    {
+      "id": "main/07/031",
+      "translation": "닌텐도 64"
+    },
+    {
+      "id": "main/07/032",
+      "translation": "예쁜 와인잔"
+    },
+    {
+      "id": "main/07/033",
+      "translation": "예쁜 에일 잔"
+    },
+    {
+      "id": "main/07/034",
+      "translation": "예쁜 컵"
+    },
+    {
+      "id": "main/07/035",
+      "translation": "유리 항아리"
+    },
+    {
+      "id": "main/07/036",
+      "translation": "유리 디캔터"
+    },
+    {
+      "id": "main/07/037",
+      "translation": "예쁜 작은 접시"
+    },
+    {
+      "id": "main/07/038",
+      "translation": "유리 볼"
+    },
+    {
+      "id": "main/07/039",
+      "translation": "작은 유리 상자"
+    },
+    {
+      "id": "main/07/040",
+      "translation": "예쁜 술잔"
+    },
+    {
+      "id": "main/07/041",
+      "translation": "바이올린"
+    },
+    {
+      "id": "main/07/042",
+      "translation": "귀걸이"
+    },
+    {
+      "id": "main/07/043",
+      "translation": "보검"
+    },
+    {
+      "id": "main/07/044",
+      "translation": "금 티아라"
+    },
+    {
+      "id": "main/07/045",
+      "translation": "예쁜 지팡이"
+    },
+    {
+      "id": "main/07/046",
+      "translation": "왕의 왕관"
+    },
+    {
+      "id": "main/07/047",
+      "translation": "게임보이 어드밴스"
+    },
+    {
+      "id": "main/07/048",
+      "translation": "큰 거울"
+    },
+    {
+      "id": "main/07/049",
+      "translation": "탁상시계"
+    },
+    {
+      "id": "main/07/050",
+      "translation": "금 거울"
+    },
+    {
+      "id": "main/07/051",
+      "translation": "스테인드글라스"
+    },
+    {
+      "id": "main/07/052",
+      "translation": "고대 거울"
+    },
+    {
+      "id": "main/07/053",
+      "translation": "금 시계"
+    },
+    {
+      "id": "main/07/054",
+      "translation": "금 회중시계"
+    },
+    {
+      "id": "main/07/055",
+      "translation": "빙글빙글 안경"
+    },
+    {
+      "id": "main/07/056",
+      "translation": "고대 반지"
+    },
+    {
+      "id": "main/07/057",
+      "translation": "고대 목걸이"
+    },
+    {
+      "id": "main/07/058",
+      "translation": "고대 부조"
+    },
+    {
+      "id": "main/07/059",
+      "translation": "작은 피라미드"
+    },
+    {
+      "id": "main/07/060",
+      "translation": "고대 팔찌"
+    },
+    {
+      "id": "main/07/061",
+      "translation": "아누비스상"
+    },
+    {
+      "id": "main/07/062",
+      "translation": "왕의 가면"
+    },
+    {
+      "id": "main/07/063",
+      "translation": "게임큐브"
+    },
+    {
+      "id": "main/07/064",
+      "translation": "?"
+    },
+    {
+      "id": "main/08/000",
+      "translation": "타이틀로 돌아가기"
+    },
+    {
+      "id": "main/08/001",
+      "translation": "광장으로 돌아가기"
+    },
+    {
+      "id": "main/08/002",
+      "translation": "타이틀로 돌아갑니다."
+    },
+    {
+      "id": "main/08/003",
+      "translation": "광장으로 돌아갑니다."
+    },
+    {
+      "id": "main/09/000",
+      "translation": "A 버튼으로 점프!@B 버튼으로 펀치!@기절한 몬스터는@B로 들어 올려 던져!"
+    },
+    {
+      "id": "main/09/001",
+      "translation": "점프 중 R 버튼으로@엉덩이 찍기!@지하 방에 들어가서@빨간 다이아를 손에 넣어!"
+    },
+    {
+      "id": "main/09/002",
+      "translation": "B를 누르고 있으면@대시 어택!@몬스터를 들어 올린 뒤@B를 누르고 있으면 모아 던지기!"
+    },
+    {
+      "id": "main/09/003",
+      "translation": "구멍에 떨어지면@벌칙 씨의 방이야!@벌칙 씨의 방에서는@골 포인트로 서둘러!"
+    },
+    {
+      "id": "main/09/004",
+      "translation": "풍선을 붙잡고@출발 지점으로!@START/PAUSE@버튼으로 컬렉트 화면!"
+    },
+    {
+      "id": "main/09/005",
+      "translation": "아날로그 스틱을 돌리면@자이언트 스윙!@물건을 들고 점프 중에@R로 파일드라이버!"
+    },
+    {
+      "id": "main/09/006",
+      "translation": "자이언트 스윙은@회전하는 기술!@파일드라이버는@아래로 내리치는 기술!"
+    },
+    {
+      "id": "main/09/007",
+      "translation": "찰싹공에는@점프해서 달라붙어!@표시를 보고@점프하면 돼!"
+    },
+    {
+      "id": "main/09/008",
+      "translation": "배틀 링은@1분 동안 벌이는 배틀!@몬스터를 쓰러뜨리면@코인을 받을 수 있어!"
+    },
+    {
+      "id": "main/09/009",
+      "translation": "내 친구들을@구해 줘!@보답은 할 테니까!"
+    },
+    {
+      "id": "main/09/010",
+      "translation": "커다란 손 몬스터는@짓누르는 공격을 한 뒤가@공격할 기회야!"
+    },
+    {
+      "id": "main/09/011",
+      "translation": "소용돌이무늬 발판은@움직인다고 해!@빙글빙글 돈다는 게@무슨 뜻인지 알겠어?"
+    },
+    {
+      "id": "main/09/012",
+      "translation": "많은 코인을@한꺼번에 얻으려면@L 버튼으로@하이퍼 빨아들이기!"
+    },
+    {
+      "id": "main/09/013",
+      "translation": "자이언트 스윙을@잠시 동안 계속하면@자동 회전 모드!"
+    },
+    {
+      "id": "main/09/014",
+      "translation": "하늘에 있는 몬스터에게는@대시 중 A로@스크루 어택!"
+    },
+    {
+      "id": "main/09/015",
+      "translation": "전기 피에로의@움직이는 과녁에는@힘껏@물건을 던져!"
+    },
+    {
+      "id": "main/09/016",
+      "translation": "이 앞이 어떻게 되어 있는지@보고 싶을 때는@C 스틱으로!"
+    },
+    {
+      "id": "main/09/017",
+      "translation": "R 버튼을 누르기만 해도@대시 어택!"
+    },
+    {
+      "id": "main/09/018",
+      "translation": "마늘값은@점점 올라!@코인을 모아 두자!"
+    },
+    {
+      "id": "main/09/019",
+      "translation": "피에로가 공을 타고@반대편으로 가면@그 자리에서@서둘러 도망쳐!"
+    },
+    {
+      "id": "main/09/020",
+      "translation": "통 몬스터의@머리를 위로 날려서@아귀 몬스터의@약점에 맞혀!"
+    },
+    {
+      "id": "main/09/021",
+      "translation": "높은 곳으로 가려면@고드름 몬스터를@잘 이용해!"
+    },
+    {
+      "id": "main/09/022",
+      "translation": "뚱뚱한 몬스터는@튕겨 나가지 않도록@기절시켜 두는 게@안심이야!"
+    },
+    {
+      "id": "main/09/023",
+      "translation": "한 번 클리어하면@출발 지점에@편리한 것이!"
+    },
+    {
+      "id": "main/09/024",
+      "translation": "칼바람 몬스터에게는@마그마에 뭔가를 넣어서@폭발시켜!@빨간 눈은 보지 마!"
+    },
+    {
+      "id": "main/09/025",
+      "translation": "나무 몬스터가 내놓는@나무 열매는@땅을 진동시켜서@방향을 바꿔!"
+    },
+    {
+      "id": "main/09/026",
+      "translation": "커다란 튤립의@찰싹공에는@재빨리 달라붙어서@서둘러 건너!"
+    },
+    {
+      "id": "main/09/027",
+      "translation": "자석 몬스터는@자석의 특징을@떠올려 봐!"
+    },
+    {
+      "id": "main/09/028",
+      "translation": "갈 수 없을 것 같은 절벽 아래@같은 곳도 수상하지!"
+    },
+    {
+      "id": "main/09/029",
+      "translation": "왕거미 몬스터는@찰싹공을 이용해서@다가가!@줄다리기는 대시로!"
+    },
+    {
+      "id": "main/09/030",
+      "translation": "거울에 비친@자기 모습을 보면서@가야 하는@곳도 있어!"
+    },
+    {
+      "id": "main/09/031",
+      "translation": "벽에 걸린@그림 몬스터는@위를 공격해!"
+    },
+    {
+      "id": "main/09/032",
+      "translation": "거울에만 비치는@몬스터는@거울 속 세계를 보면서@싸워 봐!"
+    },
+    {
+      "id": "main/09/033",
+      "translation": "막다른 길로 보여도@거울에 힌트가@비치고 있어!"
+    },
+    {
+      "id": "main/09/034",
+      "translation": "마술사는 겁쟁이!@컵을 두드려도@모습을 드러내지 않는다고@포기하지 마!"
+    },
+    {
+      "id": "main/09/035",
+      "translation": "왕전갈은@모래 속에 숨어 있어서@성가신 녀석이야!@아래로 공격해서@두들겨 꺼내 버려!"
+    },
+    {
+      "id": "main/09/036",
+      "translation": "석상 몬스터는@블록 3개를 모두@부숴서 물리쳐!"
+    },
+    {
+      "id": "main/09/037",
+      "translation": "레이저 해파리는@아무튼 위험해!@한 바퀴 돌아서@위를 보면 기회야!"
+    },
+    {
+      "id": "main/09/038",
+      "translation": "철 몬스터는@불을 뿜어!@엉덩이 찍기로@들어가서 피해!"
+    },
+    {
+      "id": "main/09/039",
+      "translation": "내 친구는@모두 40명이야!@몇 명이나@구해 줬을까?"
+    },
+    {
+      "id": "main/09/040",
+      "translation": "?"
+    },
+    {
+      "id": "main/10/000",
+      "translation": "마늘~! 마늘 사려는 사람 없나!@체력을 회복시켜 주는 맛있는 마늘!@@어이, 거기 지저분한 아저씨!@이 몸을 두들길 용기가 있다면@마늘을 팔아 줄 수도 있지!"
+    },
+    {
+      "id": "main/10/001",
+      "translation": "이걸 모아서@하트 조각을 손에 넣는 거다~!"
+    },
+    {
+      "id": "main/10/002",
+      "translation": "이걸 모아서@보스를 만나는 거다~!"
+    },
+    {
+      "id": "main/10/003",
+      "translation": "이걸 모아서@큰 보물상자 광장으로 가는 거다~!"
+    },
+    {
+      "id": "main/11/000",
+      "translation": "괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/11/001",
+      "translation": "정말 괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/11/002",
+      "translation": "정말 괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/12/000",
+      "translation": "아니요"
+    },
+    {
+      "id": "main/12/001",
+      "translation": "예"
+    },
+    {
+      "id": "main/13/000",
+      "translation": "계속하려면 코인 100개가 필요합니다."
+    },
+    {
+      "id": "main/13/001",
+      "translation": "계속하려면 코인 200개가 필요합니다."
+    },
+    {
+      "id": "main/13/002",
+      "translation": "계속하려면 코인 300개가 필요합니다."
+    },
+    {
+      "id": "main/13/003",
+      "translation": "계속하려면 코인 500개가 필요합니다."
+    },
+    {
+      "id": "main/13/004",
+      "translation": "계속하시겠습니까?"
+    },
+    {
+      "id": "main/13/005",
+      "translation": "광장으로 돌아갑니다."
+    },
+    {
+      "id": "main/13/006",
+      "translation": "타이틀로 돌아갑니다."
+    },
+    {
+      "id": "main/13/007",
+      "translation": " "
+    },
+    {
+      "id": "main/13/008",
+      "translation": "괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/13/009",
+      "translation": "괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/14/000",
+      "translation": "진동"
+    },
+    {
+      "id": "main/14/001",
+      "translation": "끄기"
+    },
+    {
+      "id": "main/14/002",
+      "translation": "켜기"
+    },
+    {
+      "id": "main/14/003",
+      "translation": "사운드"
+    },
+    {
+      "id": "main/14/004",
+      "translation": "모노"
+    },
+    {
+      "id": "main/14/005",
+      "translation": "스테레오"
+    },
+    {
+      "id": "main/14/006",
+      "translation": "서라운드"
+    },
+    {
+      "id": "main/14/007",
+      "translation": "언어"
+    },
+    {
+      "id": "main/15/000",
+      "translation": "옛날에"
+    },
+    {
+      "id": "main/15/001",
+      "translation": "사람의 욕망을 먹고 힘으로 삼는"
+    },
+    {
+      "id": "main/15/002",
+      "translation": "마의 검은 보석이 있었다."
+    },
+    {
+      "id": "main/15/003",
+      "translation": "그것은 수많은 마물을 낳아"
+    },
+    {
+      "id": "main/15/004",
+      "translation": "사람들을 괴롭혔다."
+    },
+    {
+      "id": "main/15/005",
+      "translation": "　"
+    },
+    {
+      "id": "main/15/006",
+      "translation": "그리고 마물이 세상을 뒤덮을 것 같던 때"
+    },
+    {
+      "id": "main/15/007",
+      "translation": "성스러운 숲의 요정들이 힘을 합쳐"
+    },
+    {
+      "id": "main/15/008",
+      "translation": "검은 보석을 유적 깊숙이 봉인했다."
+    },
+    {
+      "id": "main/15/009",
+      "translation": "　"
+    },
+    {
+      "id": "main/15/010",
+      "translation": "　"
+    },
+    {
+      "id": "main/15/011",
+      "translation": "하지만 세월이 흘러"
+    },
+    {
+      "id": "main/15/012",
+      "translation": "욕심 많은 보물 사냥꾼이"
+    },
+    {
+      "id": "main/15/013",
+      "translation": "그 보석을 유적에서 빼앗아 가고 말았다…"
+    },
+    {
+      "id": "main/15/014",
+      "translation": "　"
+    },
+    {
+      "id": "main/15/015",
+      "translation": "「…힘이 넘치는 것 같군…"
+    },
+    {
+      "id": "main/15/016",
+      "translation": "이 녀석의 보물을 모두 마물로 바꿔 주마…"
+    },
+    {
+      "id": "main/15/017",
+      "translation": "와하하하…」"
+    },
+    {
+      "id": "main/15/018",
+      "translation": "　"
+    },
+    {
+      "id": "main/15/019",
+      "translation": "와리오 성"
+    },
+    {
+      "id": "main/16/000",
+      "translation": "뭐, 뭐야, 이게~!"
+    },
+    {
+      "id": "main/16/001",
+      "translation": "젠장~, 날 우습게 보다니!"
+    },
+    {
+      "id": "main/16/002",
+      "translation": "이런 걸로는@이 몸은 납득 못 한다~!"
+    },
+    {
+      "id": "main/16/003",
+      "translation": "이 몸은 와리오님이시다!@이런 초라한 곳에서 어떻게 살아!"
+    },
+    {
+      "id": "main/16/004",
+      "translation": "느흐흐흐, 제법 괜찮군!"
+    },
+    {
+      "id": "main/16/005",
+      "translation": "가하하하! 보아라!@이것이야말로 이 몸에게 어울리는 성이다!"
+    },
+    {
+      "id": "main/17/000",
+      "translation": "컨트롤러 포트 2에 GBA 케이블을 연결해 주세요."
+    },
+    {
+      "id": "main/17/001",
+      "translation": "게임보이 어드밴스를 인식하고 있습니다…"
+    },
+    {
+      "id": "main/17/002",
+      "translation": "게임보이 어드밴스에 다운로드하고 있습니다…"
+    },
+    {
+      "id": "main/17/003",
+      "translation": "게임보이 어드밴스에 다운로드를 완료했습니다."
+    },
+    {
+      "id": "main/17/004",
+      "translation": "게임보이 어드밴스를 인식하지 못했습니다.@컨트롤러 포트 2에 GBA 케이블을 연결하고,@게임보이 어드밴스 본체의 전원을 확인해 주세요."
+    },
+    {
+      "id": "main/17/005",
+      "translation": "통신 오류가 발생했습니다. GBA 케이블 연결과@게임보이 어드밴스 본체의 전원을 확인해 주세요."
+    },
+    {
+      "id": "main/18/000",
+      "translation": "00/00/00@00:00"
+    },
+    {
+      "id": "main/18/001",
+      "translation": "00/00/00@00:00"
+    },
+    {
+      "id": "main/18/002",
+      "translation": "00/00/00@00:00"
+    },
+    {
+      "id": "main/18/003",
+      "translation": "처음부터"
+    },
+    {
+      "id": "main/18/004",
+      "translation": "설정"
+    },
+    {
+      "id": "main/18/005",
+      "translation": "--/--/--@--:--"
+    },
+    {
+      "id": "main/19/000",
+      "translation": "OK"
+    },
+    {
+      "id": "main/19/001",
+      "translation": "예@아니요"
+    },
+    {
+      "id": "main/19/002",
+      "translation": "시작@복사@지우기@취소"
+    },
+    {
+      "id": "main/19/003",
+      "translation": "시작@취소"
+    },
+    {
+      "id": "main/19/004",
+      "translation": "덮어쓰기@다른 곳에@취소"
+    },
+    {
+      "id": "main/19/005",
+      "translation": "삭제"
+    },
+    {
+      "id": "main/20/000",
+      "translation": " "
+    },
+    {
+      "id": "main/20/001",
+      "translation": "슬롯 A의 메모리 카드를 확인하고 있습니다."
+    },
+    {
+      "id": "main/20/002",
+      "translation": "이 게임의 파일을 만드시겠습니까?"
+    },
+    {
+      "id": "main/20/003",
+      "translation": "이 게임의 파일을 만들고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/004",
+      "translation": "이 게임의 파일을 만드는 데@실패했습니다."
+    },
+    {
+      "id": "main/20/005",
+      "translation": "데이터를 선택해 주세요."
+    },
+    {
+      "id": "main/20/006",
+      "translation": "슬롯 A에 메모리 카드가 없습니다."
+    },
+    {
+      "id": "main/20/007",
+      "translation": "슬롯 A의 메모리 카드에는@이 게임에서 사용하는 파일이 없습니다."
+    },
+    {
+      "id": "main/20/008",
+      "translation": "슬롯 A에 꽂혀 있는 것은@이 게임에서 사용할 수 없습니다."
+    },
+    {
+      "id": "main/20/009",
+      "translation": "파일이 손상되었습니다."
+    },
+    {
+      "id": "main/20/010",
+      "translation": "슬롯 A의 메모리 카드에 여유 공간이 없거나@파일 수 제한을 초과하게 됩니다.@이 게임을 저장하려면 파일 1개와@10블록의 여유 공간이 필요합니다.@메모리 카드의 내용 정리는@본체의 메모리 카드 화면에서 해 주세요."
+    },
+    {
+      "id": "main/20/011",
+      "translation": "저장할 수 없지만 게임을 시작하시겠습니까?"
+    },
+    {
+      "id": "main/20/012",
+      "translation": "슬롯 A의 메모리 카드는@초기화가 필요합니다.@초기화하시겠습니까?"
+    },
+    {
+      "id": "main/20/013",
+      "translation": "초기화하면 메모리 카드 안의@모든 파일이 지워집니다.@괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/20/014",
+      "translation": "초기화하고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/015",
+      "translation": "초기화했습니다."
+    },
+    {
+      "id": "main/20/016",
+      "translation": "초기화에 실패했을 수도 있습니다."
+    },
+    {
+      "id": "main/20/017",
+      "translation": "파일의 일부가 손상되었습니다.@복구를 시도하시겠습니까?"
+    },
+    {
+      "id": "main/20/018",
+      "translation": "복구하고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/019",
+      "translation": "복구했습니다."
+    },
+    {
+      "id": "main/20/020",
+      "translation": "복구에 실패했을 수도 있습니다."
+    },
+    {
+      "id": "main/20/021",
+      "translation": "파일이 손상되었습니다."
+    },
+    {
+      "id": "main/20/022",
+      "translation": "파일을 삭제하면 복구할 수 없습니다.@정말 삭제하시겠습니까?"
+    },
+    {
+      "id": "main/20/023",
+      "translation": "파일을 삭제하고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/024",
+      "translation": "파일을 삭제했습니다."
+    },
+    {
+      "id": "main/20/025",
+      "translation": "파일 삭제에 실패했을 수도 있습니다."
+    },
+    {
+      "id": "main/20/026",
+      "translation": "이 데이터를 지우시겠습니까?"
+    },
+    {
+      "id": "main/20/027",
+      "translation": "데이터를 지우고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/028",
+      "translation": "데이터를 지웠습니다."
+    },
+    {
+      "id": "main/20/029",
+      "translation": "데이터를 지우는 데 실패했을 수도 있습니다."
+    },
+    {
+      "id": "main/20/030",
+      "translation": "복사할 곳을 선택해 주세요."
+    },
+    {
+      "id": "main/20/031",
+      "translation": "복사하면 이 데이터는 지워집니다.@괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/20/032",
+      "translation": "데이터를 복사하고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/033",
+      "translation": "데이터를 복사했습니다."
+    },
+    {
+      "id": "main/20/034",
+      "translation": "데이터 복사에 실패했을 수도 있습니다."
+    },
+    {
+      "id": "main/20/035",
+      "translation": "데이터를 저장하시겠습니까?"
+    },
+    {
+      "id": "main/20/036",
+      "translation": "데이터를 저장하고 있습니다.@메모리 카드나 전원 버튼을@건드리지 마세요."
+    },
+    {
+      "id": "main/20/037",
+      "translation": "데이터를 저장했습니다."
+    },
+    {
+      "id": "main/20/038",
+      "translation": "데이터 저장에 실패했을 수도 있습니다."
+    },
+    {
+      "id": "main/20/039",
+      "translation": "플레이 중인 데이터와 메모리 카드의@데이터가 일치하지 않습니다."
+    },
+    {
+      "id": "main/20/040",
+      "translation": "저장할 데이터를 선택해 주세요."
+    },
+    {
+      "id": "main/20/041",
+      "translation": "이전 데이터는 지워집니다.@정말 괜찮으시겠습니까?"
+    },
+    {
+      "id": "main/20/042",
+      "translation": "슬롯 A의 메모리 카드는@손상되어 사용할 수 없습니다."
+    },
+    {
+      "id": "save/000",
+      "translation": "와리오 월드"
+    },
+    {
+      "id": "save/001",
+      "translation": "와리오 월드       "
+    },
+    {
+      "id": "save/002",
+      "translation": "이 몸의 역사~라이벌은 바로 나!"
+    },
+    {
+      "id": "credits/000",
+      "translation": "WARIO WORLD STAFF CREDITS"
+    },
+    {
+      "id": "credits/001",
+      "translation": "PROGRAMMING"
+    },
+    {
+      "id": "credits/002",
+      "translation": "Yoshiyuki Matsumoto"
+    },
+    {
+      "id": "credits/003",
+      "translation": "Kanta Watanabe"
+    },
+    {
+      "id": "credits/004",
+      "translation": "Yuji Yamanaka"
+    },
+    {
+      "id": "credits/005",
+      "translation": "Tahei Katagai"
+    },
+    {
+      "id": "credits/006",
+      "translation": "Yusuke Asai"
+    },
+    {
+      "id": "credits/007",
+      "translation": "DESIGN"
+    },
+    {
+      "id": "credits/008",
+      "translation": "Kiyotaka Ohashi"
+    },
+    {
+      "id": "credits/009",
+      "translation": "Yasuo Wakatsuki"
+    },
+    {
+      "id": "credits/010",
+      "translation": "Kouji Kitatani"
+    },
+    {
+      "id": "credits/011",
+      "translation": "Takuro Nakamura"
+    },
+    {
+      "id": "credits/012",
+      "translation": "Kazue Imai"
+    },
+    {
+      "id": "credits/013",
+      "translation": "Shingo Nakai"
+    },
+    {
+      "id": "credits/014",
+      "translation": "ADVISORS"
+    },
+    {
+      "id": "credits/015",
+      "translation": "Yoshio Sakamoto"
+    },
+    {
+      "id": "credits/016",
+      "translation": "Hiroji Kiyotake"
+    },
+    {
+      "id": "credits/017",
+      "translation": "MUSIC"
+    },
+    {
+      "id": "credits/018",
+      "translation": "Norio Hanzawa"
+    },
+    {
+      "id": "credits/019",
+      "translation": "Minako Hamano"
+    },
+    {
+      "id": "credits/020",
+      "translation": "SOUND EFFECTS"
+    },
+    {
+      "id": "credits/021",
+      "translation": "Satoshi Murata"
+    },
+    {
+      "id": "credits/022",
+      "translation": "VOICE"
+    },
+    {
+      "id": "credits/023",
+      "translation": "Charles Martinet"
+    },
+    {
+      "id": "credits/024",
+      "translation": "MANUAL EDITION"
+    },
+    {
+      "id": "credits/025",
+      "translation": "Yasuo Inoue"
+    },
+    {
+      "id": "credits/026",
+      "translation": "PACKAGE DESIGN"
+    },
+    {
+      "id": "credits/027",
+      "translation": "Takashi Ito"
+    },
+    {
+      "id": "credits/028",
+      "translation": "SPECIAL THANKS"
+    },
+    {
+      "id": "credits/029",
+      "translation": "Haruko Hosaka"
+    },
+    {
+      "id": "credits/030",
+      "translation": "DEBUG"
+    },
+    {
+      "id": "credits/031",
+      "translation": "Super Mario Club"
+    },
+    {
+      "id": "credits/032",
+      "translation": "ASSISTANT DIRECTOR"
+    },
+    {
+      "id": "credits/033",
+      "translation": "Azusa Tajima"
+    },
+    {
+      "id": "credits/034",
+      "translation": "DIRECTORS"
+    },
+    {
+      "id": "credits/035",
+      "translation": "Kouichi Kimura"
+    },
+    {
+      "id": "credits/036",
+      "translation": "Hitoshi Yamagami"
+    },
+    {
+      "id": "credits/037",
+      "translation": "PRODUCERS"
+    },
+    {
+      "id": "credits/038",
+      "translation": "Takehiro Izushi"
+    },
+    {
+      "id": "credits/039",
+      "translation": "Masato Maegawa"
+    },
+    {
+      "id": "credits/040",
+      "translation": "EXECUTIVE PRODUCER"
+    },
+    {
+      "id": "credits/041",
+      "translation": "Satoru Iwata"
+    },
+    {
+      "id": "credits/042",
+      "translation": "All Rights, including the copyrights of"
+    },
+    {
+      "id": "credits/043",
+      "translation": "Game, Scenario, Music and Program,"
+    },
+    {
+      "id": "credits/044",
+      "translation": "reserved by NINTENDO."
+    },
+    {
+      "id": "banner/short_title",
+      "translation": "와리오 월드"
+    },
+    {
+      "id": "banner/short_maker",
+      "translation": "Ｎｉｎｔｅｎｄｏ"
+    },
+    {
+      "id": "banner/long_title",
+      "translation": "와리오 월드"
+    },
+    {
+      "id": "banner/long_maker",
+      "translation": "Ｎｉｎｔｅｎｄｏ"
+    },
+    {
+      "id": "banner/description",
+      "translation": "흥가~~!! 드디어 이 몸이 GC에 등장이다!\nTV 앞의 너! 어서 시작하는 거다!"
+    },
+    {
+      "id": "rsc/AF11/013/000",
+      "translation": "어이, 와리오! 기다리고 있었어!@P나는 @C00??넷코로@C????. 숲의 요정이야.@N그보다 큰일이야!@P@P네가 빼앗은 @C00??검은 보석@C????이@P와리오 성에 소용돌이치는@P욕심 에너지를 빨아들여서@P또 나쁜 짓을 시작했어!@N@C?00?A 버튼으로 점프@C????, @C?00?B 버튼으로 펀치@C????!@P@C?00?기절한 몬스터는@PB로 들어 올려 던져@C????!@P네 특기인@C?00? @C????파워풀 액션으로@P녀석들을 물리쳐 줘!@P"
+    },
+    {
+      "id": "rsc/AF11/013/001",
+      "translation": "목표로 하는 @C00??골인 지점@C????에는@P@C00??커다란 석상@C????이 세워져 있어서@P그냥@C?00? @C????도착하기만 해서는@P들어갈 수 없어!@N@C00??빨간 다이아@C????라는 보석을@P정해진 개수만큼 모아야 해.@P@P다이아는 땅에 있는 문으로 갈 수 있는@P@C00??지하 방@C????에 1개씩 놓여 있어.@N@C?00?점프 중 R 버튼으로 엉덩이 찍기@C????!@P이걸로 아래에 충격을 주면@P안으로 들어갈 수 있어!@P@P처음에는@P다이아 3개를 모으면 돼!@P"
+    },
+    {
+      "id": "rsc/AF11/013/002",
+      "translation": "와리오,@PB 버튼은 잘 활용하고 있어?@N우선,@P@C?00?B를 누르고 있으면 대시 어택@C????!@P@P앞을 향해서@P똑바로 공격할 수 있어!@N하나 더!@P몬스터를 들어 올리고 있을 때@P@C?00?B를 누르고 있으면 모아 던지기@C????를 할 수 있어!@P@P던져도 쓰러지지 않는 몬스터는@P모아 던지기로 물리칠 수 있어!@P"
+    },
+    {
+      "id": "rsc/AF11/013/003",
+      "translation": "앗! 와리오, 조심해!@P이 앞은 절벽이고 @C00??구멍@C????이 뚫려 있어!@N만약 떨어지면@P@C00??벌칙 씨의 방@C????에 가게 돼!@P@P벌칙 씨의 방에서는@P아래로 떨어지면 코인이 줄어드니까@P서둘러 @C00??골 포인트@C????를 찾아!@P"
+    },
+    {
+      "id": "rsc/AF11/013/004",
+      "translation": "눈앞에 있는 게 골인 지점이야!@P다이아 개수가 충분하면@P석상이 사라지지만,@P혹시 부족하면@P근처에 있는 @C00??풍선@C????을 붙잡고@P@C00??출발 지점@C????으로 돌아갈 수 있으니까@P다시 찾아보고 와!@N이 앞으로는 필요한 다이아가@P점점 늘어나!@P다이아 개수를 확인하고 싶으면@P@C?00?START/PAUSE 버튼의@P컬렉트 화면@C????을 보면 돼!@P"
+    },
+    {
+      "id": "rsc/AF12/009/000",
+      "translation": "몬스터에게 둘러싸였을 때는@P@C00??큰 기술@C????을 쓰면 많은 몬스터를@P한꺼번에 쓰러뜨릴 수 있어!@N몬스터를 들어 올리고 있을 때@P@C?00?아날로그 스틱을@C???? @C?00?빙글빙글 돌리면@P자이언트 스윙@C????!@P@P마찬가지로 몬스터를 들어 올리고 있을 때@P@C?00?점프해서 R로 파일드라이버@C????야!@P"
+    },
+    {
+      "id": "rsc/AF12/009/001",
+      "translation": "자이언트 스윙은@P빙글빙글 @C00??회전@C????하는 기술!@P@P파일드라이버는@P아래로 힘껏 @C00??내리치는@C???? 기술!@N두 가지 큰 기술의 특징을@P잘 기억해 두면@P장치의 @C?00?톱니바퀴를 돌리거나@P@C????튼튼한 @C?00?철문을 부수거나,@P@C????함정을 돌파하는 데@P무척 도움이 될 거야!@P"
+    },
+    {
+      "id": "rsc/AF12/009/002",
+      "translation": "이 앞의 벽에 붙어 있는@P@C00??찰싹공@C????에는@P@C?00?점프해서 달라붙을@C????@P수 있어!@P@P공이 있으면@P자꾸자꾸 달라붙어 봐!@N넓은 곳에서@P공으로 뛰어오를 때는@P@C00??발밑 지형@C????을 잘 살피거나@P@C00??발자국 표시@C????를 보고@P점프하면 돼!@P"
+    },
+    {
+      "id": "rsc/AF12/009/003",
+      "translation": "이 앞에는 @C00??배틀 링@C????이 있어!@N링에 들어가면@P@C00??1분 동안@C???? 배틀이 벌어져!@P계속 나타나는 몬스터를@P팍팍 쓰러뜨려 줘!@P@P쓰러뜨린 몬스터 수에 따라@P@C00??받을 수 있는 코인@C????의 개수도 달라지니까@P열심히 쓰러뜨려 줘!@P"
+    },
+    {
+      "id": "rsc/AF12/009/004",
+      "translation": "이 앞에도 내 친구들이@P많이 잡혀 있으니까@P보이면 꼭 @C?00?구해 줘@C????!@P@P물론, 그에 맞는 @C00??보답@C????은@P할 테니까!@N그럼 와리오!@P@P잘 부탁해!@P"
+    },
+    {
+      "id": "rsc/AF21/014/000",
+      "translation": "이 앞에 있는 @C00??커다란 손 몬스터@C????는@P쓰러뜨리지 않으면 앞으로 갈 수 없어!@N평소에는 약점이 보이지 않지만@P@C00??짓누르는 공격@C????을 한 뒤가 기회야!@P"
+    },
+    {
+      "id": "rsc/AF21/014/001",
+      "translation": "@C00??소용돌이무늬 발판@C????은 움직인다고 해!@N빙글빙글 돈다는 게 무슨 뜻일까?@P너는 무슨 말인지 알겠어?@P"
+    },
+    {
+      "id": "rsc/AF21/014/002",
+      "translation": "많은 코인을 한꺼번에 얻으려면@P@C?00?L 버튼으로 하이퍼 빨아들이기@C????를 쓰면 편리해!@P@P근처 코인을 마구 빨아들여!@P"
+    },
+    {
+      "id": "rsc/AF21/014/003",
+      "translation": "사실@P자이언트 스윙을 계속하면@P@C00??자동 회전 모드@C????가 돼!@N그렇게 되면@P@C?00?아날로그 스틱을 놓아도@P저절로 회전@C????하거든!@P@P게다가 그 상태로 이동할 수도 있어!@P이미 알고 있었어?@P"
+    },
+    {
+      "id": "rsc/AF21/014/004",
+      "translation": "골인 지점 너머에는@P@C00??인형 몬스터@C????가 있어!@N하늘에 있어서 펀치하기는 어렵지만@P@C?00?대시 중 A로 쓰는 스크루 어택@C????을@P쓰면 쉬워질 거야!@P"
+    },
+    {
+      "id": "rsc/AF22/018/000",
+      "translation": "앞으로 가면@P@C00??전기 피에로@C????가 길을 막고 있어서@P쉽게 지나갈 수 없어!@P@P움직이는 과녁에 뭔가를 맞히면 돼.@P@C?00?힘껏 맞히면 금방 쓰러뜨릴 수 있어@C????!@P"
+    },
+    {
+      "id": "rsc/AF22/018/001",
+      "translation": "이 앞이 어떻게 되어 있는지@P모를 때는@P한번 보고 싶어지지?@N그럴 때는@P@C?00?C 스틱으로 주위를 둘러볼@C????@P수 있어!@P@P조금밖에 못 보지만 말이야.@P"
+    },
+    {
+      "id": "rsc/AF22/018/002",
+      "translation": "사실 여기서만 하는 얘기인데…@P@P@C?00?R 버튼을 누르기만 해도@P대시 어택@C????을@C?00? @C????쓸 수 있어!@P"
+    },
+    {
+      "id": "rsc/AF22/018/003",
+      "translation": "와리오는 @C00??마늘 자판기@C????를@P잘 이용하고 있어?@N실력에 자신이 없으면 코인을@P모아 두는 게 좋을지도 몰라!@P@P@C?00?앞으로 갈수록 값이 올라가고@C????,@P살 때마다 올라갈 때도 있거든!@P"
+    },
+    {
+      "id": "rsc/AF22/018/004",
+      "translation": "골인 지점 너머에 있는 @C00??피에로@C????는@P귀여워 보이지만@P사실 위험한 녀석이야!@P@P피에로가 공을 타고@P반대편으로 가면@P@C?00?그 자리에서 도망쳐야@C???? 해!@P"
+    },
+    {
+      "id": "rsc/AF41/010/000",
+      "translation": "@C00??아귀 몬스터@C????의 약점은@P위에 있어서 직접 펀치해도@P소용없어!@P@P함께 다니는 @C00??통 몬스터@C????는@P머리가 튀어나오니까@P뭔가 충격을 줘서@P@C?00?머리를 위로 날릴@C???? 수 있으면 좋을 텐데.@P"
+    },
+    {
+      "id": "rsc/AF41/010/001",
+      "translation": "얼음 동굴에는 점프로 갈 수 없는@P높은 곳이 몇 군데 있어!@P@P그럴 때는 거기에 나타나는@P@C00??고드름 몬스터@C????를 잘 봐!@P뾰족한 머리가 바닥에 @C?00?박힐 것 같아@C????!@P"
+    },
+    {
+      "id": "rsc/AF41/010/002",
+      "translation": "좁은 길에서 @C00??뚱뚱한 몬스터@C????를@P만나면 튕겨 나가서 아래로 떨어지지 않게@P조심해!@P@P그 녀석은 @C?00?기절시켜@C???? 두는 게@P안심이야!@P"
+    },
+    {
+      "id": "rsc/AF41/010/003",
+      "translation": "이 눈 덮인 산은 무척 넓어서@P보물을 모으기도 힘들지!@P@P한 번 클리어하면 다음에 들어왔을 때@P출발 지점에 @C?00?편리한 것@C????이 있을지도 몰라!@P"
+    },
+    {
+      "id": "rsc/AF41/010/004",
+      "translation": "골인 지점 너머에 있는 @C00??칼바람 몬스터@C????는@P하늘에서 공격해!@P마그마 구멍에 뭔가를 넣으면 마그마가@P뿜어져 나올 텐데!@N그리고 녀석의 @C?00?눈이 빨갛게 빛나면@C????@P눈을 보지 마!@P"
+    },
+    {
+      "id": "rsc/AF42/013/000",
+      "translation": "@C00??커다란 나무 몬스터@C????에게는@P@C00??나무 열매@C????를 맞혀!@P@P하지만 나무 열매에는 가시가 있어서@P위험하니까 @C?00?진동으로 방향을 바꾼@C???? 다음에@P들도록 해!@P"
+    },
+    {
+      "id": "rsc/AF42/013/001",
+      "translation": "@C00??커다란 튤립@C????이 내놓는@P찰싹공은 금방 다시@P입으로 빨려 들어가!@P@P@C?00?재빨리 달라붙어서@C???? 건너야 해!@P"
+    },
+    {
+      "id": "rsc/AF42/013/002",
+      "translation": "@C00??자석 몬스터@C????는@P그냥 방해만 하는 녀석이 아니야!@P@P자석의 특징을@P떠올려 봐!@P분명 도움이 될 거야!@P"
+    },
+    {
+      "id": "rsc/AF42/013/003",
+      "translation": "이런 곳에도@P여러 가지 @C00??보물@C????이 있어!@P@P갈 수 없을 것 같은 @C00??절벽 아래@C???? 같은 곳도@P수상하지!@P"
+    },
+    {
+      "id": "rsc/AF42/013/004",
+      "translation": "이 앞에는@P@C00??왕거미 몬스터@C????가 있어!@N한가운데의 끈적끈적한 곳에 들어가면@P점프할 수 없게 되니까 조심해!@P몬스터가 내놓는 찰싹공을@P이용하면 다가갈 수 있을지도@P몰라!@P@P줄다리기는 @C?00?대시로 잡아당겨@C???? 버려!@P"
+    },
+    {
+      "id": "rsc/AF51/011/000",
+      "translation": "여기는 @C00??미러 하우스@C????야!@N거울에 비친 자기 모습을 보면서@P가야 하는 곳도 있으니까@P힘내!@P"
+    },
+    {
+      "id": "rsc/AF51/011/001",
+      "translation": "벽에 걸려 있는 @C00??그림 몬스터@C????는@P위에서 손을 뻗어 덤벼들어!@P@P@C?00?위를 공격하는@C???? 건 어떻게 했는지@P기억나?@P"
+    },
+    {
+      "id": "rsc/AF51/011/002",
+      "translation": "@C00??거울에만 비치는 몬스터@C????가@P있다던데!@P@C?00?거울 속 세계를 보면서@C???? 싸워 봐!@P@P앞뒤가 반대가 되니까@P조심해!@P"
+    },
+    {
+      "id": "rsc/AF51/011/003",
+      "translation": "이 앞이 @C00??막다른 길@C????로 보여도@P당황하지 말고 주위를 둘러봐!@P@P그냥 보면 보이지 않아도 @C?00?거울 속에는@P@C????분명 @C?00?힌트가 비칠@C???? 거야!@P"
+    },
+    {
+      "id": "rsc/AF51/011/004",
+      "translation": "골인 지점 너머에 있는 @C00??마술사@C????는@P아주 겁이 많아!@N숨어 있는 컵을 두드려도@P모습을 드러내지 않을지도 몰라!@P하지만 포기하지 마!@P@C?00?분명 그 컵에 있을@C???? 테니까!@P"
+    },
+    {
+      "id": "rsc/AF52/009/000",
+      "translation": "@C00??왕전갈@C????은 모래 속에 숨어 있어서@P성가신 녀석이야.@P@P@C?00?아래로 공격해서 두들겨 꺼내@C???? 버려!@P"
+    },
+    {
+      "id": "rsc/AF52/009/001",
+      "translation": "사다리 앞에 있는 @C00??석상 몬스터@C????는@P눈, 코, 입, 약점의 4개 부분이 붙은@P블록 3개가 쌓여서 이루어져 있어!@P@P@C?00?약점을 정확하게 공격@C????해서@P블록 3개를 모두 부숴서 물리쳐!@P"
+    },
+    {
+      "id": "rsc/AF52/009/002",
+      "translation": "@C00??레이저 해파리@C????의 긴 레이저는@P아무튼 위험해!@P@P한 바퀴 돌아서 @C?00?위를 보면 기회@C????야!@P"
+    },
+    {
+      "id": "rsc/AF52/009/003",
+      "translation": "골인 지점 너머에 있는 @C00??철 몬스터@C????는@P불을 뿜으면서 회전해!@P@P궁지에 몰렸을 때는 땅을 잘 봐!@P@C?00?엉덩이 찍기로 들어갈 수 있는@C???? 곳이 있으니까!@P"
+    },
+    {
+      "id": "rsc/AF52/009/004",
+      "translation": "내가 잡혀 있던@P@C00??마지막 요정@C????이야!@P@P내 친구는 모두 40명이야!@P몇 명이나 @C?00?구해 줬을@C????까!?@P"
+    },
+    {
+      "id": "rsc/CED/010/000",
+      "translation": "야호! 물리쳤다~!@P이제 괜찮아~!@N와리오! 덕분에 살았어! 고마워!@P검은 보석은 산산조각 나서 사라졌어!@N이제 녀석이 되살아날 일도 없겠지.@P우리도 임무를 마칠 수 있겠어!@N보답으로 무너져 버린 네@P성을 다시 지어 줄게!@N우리는 힘이 약해서 많이@P모이지 않으면 네가 만족할 만한 성을@P지을 수 있을지 모르겠지만…@N이 인원으로 할 수 있는 데까지 해 볼게!@N이얍!@P"
+    }
+  ]
+}

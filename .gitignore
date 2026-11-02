@@ -1,0 +1,18 @@
+*.iso
+*.gcm
+*.rvz
+*.dol
+*.bin
+*.png
+*.zip
+build/
+dist/
+work/
+__pycache__/
+
+# Original text dumps and project state (do not commit)
+translation/messages.json
+translation/glossary.json
+translation/graphics.json
+metadata/
+project.json
